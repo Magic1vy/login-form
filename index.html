@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="box-form">
+            <div class="form-value">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="box-input">
+                        <input id="email" type="email" required>
+                        <label for="email">Email</label>
+                        <ion-icon class="icon" name="mail-outline"></ion-icon>
+                    </div>
+                        <span id="emailError" class="error"></span>
+                    <div class="box-input">
+                        <input id="password" type="password" required>
+                        <label for="password">Password</label>
+                        <ion-icon class="icon" name="lock-closed"></ion-icon>
+                    </div>
+                        <span id="passwordError" class="error"></span>
+                    <div class="remember">
+                        <label for=""><input type="checkbox" name=" " id="">Remember <a class="password-remember" href="">password</a></label>
+                    </div>
+                    <button class="btn">Login</button>
+                    <div class="register">
+                        <p>Don't have an account? <a class="account-register" href=""><strong>Register</strong></a></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
